@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lag="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign Up</title>
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1>Account Sign Up</h1>
+        </header>
+        <form id="regform" action="register.html" method="get">
+            <fieldset>
+                <legend>Account Information</legend>
+         <label for="email">Email</label><input type="text" id="email" name="email" /> <br/>
+          <label for="pass">Password</label><input type="password" id="pass"/> <br/>
+          <label for="phn">Phone</label><input type="number" id="phn"/> <br/>
+            </fieldset>
+            <fieldset>
+                    <legend>Settings</legend>
+          <label for="hear">How did you hear about us?</label><br/>
+          <input type="radio" value="search" name="hear" id="search" />Search Engine<br/>
+          <input type="radio" value="word" name="hear" id="word" />Word of Mouth <br/>
+          <input type="radio" value="other" name="hear" id="other" />Other <br/>
+          <label for="yes">Would you like to receive announcements about new products and special offers?</label><br/>
+          <input type="checkbox" value="yes" name="yes" id="yes"/>Yes,I'd like to receive announcements about new products and special offers <br/>
+          <label for="contact">Contact Via</label><br/>
+          <select name="contact" id="contact">
+              <option value="email1" >Email</option>
+              <option value="phn1">Phone Number</option>
+          </select><br />
+           <label for="comment"> Comments</label><br/><textarea height="30px" width="30px" name="comment" id="comment">
+              
+          </textarea><br />
+          
+        </fieldset>
+        <input type="submit" value="Submit" />  
+        </form>
+    </body>
+</html>

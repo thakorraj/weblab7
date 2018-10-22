@@ -1,0 +1,15 @@
+input[type="text"]{
+    margin-left: 31px;
+}
+
+input[type="password"]{
+    margin-left: 8px;
+}
+
+input[type="number"]{
+    margin-left: 29px;
+}
+
+h1{
+    color: blue;
+}
